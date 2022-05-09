@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task4</title>
+    <link rel="stylesheet" href="style/css/style.css">
+</head>
+
+<body>
+    <section class="form">
+        <div class="user-info">AGE CALCULATE</div>
+        <div class="mt-80">
+            <div><label for="name">Name</label></div>
+            <input type="text" id="name" class="user-name" placeholder="enter your name">
+        </div>
+        <div>
+            <div class="inputs-wrapper mt-20">
+                <label for="birth">Birth</label>
+            </div>
+            <input type="date" class="date-birth" id="date-birth" placeholder="enter your birth">
+        </div>
+        <button type="submit" class="submit" onclick="agecalculate()">Calculate</button>
+    </section>
+    <section>
+        <div class="information">
+            <h4>SHOW MY INFORMATION</h4>
+            <br>
+            <span>Name: </span><span id="username"></span>
+            <br>
+        </div>
+        <div class="outputs-wrapper">
+            <div>
+                <span id="years">-</span>
+                <p>Years</p>
+            </div>
+            <div>
+                <span id="months">-</span>
+                <p>Months</p>
+            </div>
+            <div>
+                <span id="days">-</span>
+                <p>Days</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="style/js/script.js "></script>
+</body>
+
+</html>
