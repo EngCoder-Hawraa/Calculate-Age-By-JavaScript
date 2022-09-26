@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Alert</title>
+    <link rel="stylesheet" href="style/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+</head>
+
+<body class="d-flex">
+    <div class="container">
+        <div class="alert d-flex">
+            <i class="fa-solid fa-check check"></i>
+            <div class="message d-flex">
+                <span class="username" id="username"></span>
+                <span class="stages" id="stages"></span>
+            </div>
+            <i class="fa-solid fa-xmark close"></i>
+            <div class="progress"></div>
+        </div>
+    </div>
+    <label for="">Age Stages</label>
+    <div class="card d-flex">
+        <input type="text" class="border-0 name" id="name" placeholder="Name">
+        <input type="text" class="age border-0" id="age" placeholder="Age">
+        <button class="border-0" onclick="getAgeStages()">DISPLAY</button>
+    </div>
+
+    <script src="style/js/script.js"></script>
+</body>
+
+</html>
